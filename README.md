@@ -8,3 +8,5 @@ Simple tool that is capable to read addresses from the excel file and then ask G
 6. Ctrl+A  and Ctrl+C to copy complete table results from the page
 7. insert to the Excel and use vlookup() function to pull the geocoding data where needed using the ID column
 
+Important notice: be carefull not to exaust API with too many calls! Every time page gets reloaded each table line makes new API call.
+
