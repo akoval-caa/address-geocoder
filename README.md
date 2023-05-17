@@ -1,3 +1,5 @@
+Simple tool that is capable to read addresses from the excel file and then ask Google API to geocode those addresses. Outputs lat, lon, formatted address, zip and some other data on the screen
+
 1. npm install
 2. edit /src/config.js and add Google API KEY that has geocoding api enabled.
 3. put your file to /public/files/addressess.xlsx
